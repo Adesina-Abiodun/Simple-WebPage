@@ -54,3 +54,32 @@ color: #101828;
 .Dots{
     display: none;
 }
+
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color:  #101828;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+button{
+    margin-bottom: 20px;
+    background-color: #EAECF0;
+    width: 80%;
+    border-radius: 8px;
+    padding: 24px 32px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 1px 1px 5px #EAECF0;
+}
