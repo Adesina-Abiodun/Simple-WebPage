@@ -6,6 +6,7 @@ import Arrow from '../../Assets/Icons/Arrow.svg'
 import Dots from '../../Assets/Icons/Dotted.svg'
 import Github from '../../Assets/Icons/github.svg'
 import Slack from '../../Assets/Icons/slack.svg'
+import I4GLogo from '../../Assets/Icons/Ingressive.svg'
 
  export const WebPage = () => {
 
@@ -43,10 +44,9 @@ import Slack from '../../Assets/Icons/slack.svg'
 
 
     return ( 
-        <section id="container">
-                                    {/* Main-Section */}
-            <body className="Main-section">
+        <div id="container">
 
+            < section className="Main-section">
                     {/* User Image and Username */}
                 
                     <header>
@@ -72,10 +72,16 @@ import Slack from '../../Assets/Icons/slack.svg'
                         <a href="https://app.slack.com" target='_blank' rel='noreferrer'><img src={Slack} alt="Slack App" /></a>
                         <a href="https://github.com/Adesina-Abiodun" target='_blank' rel='noreferrer'><img src={Github} alt="Github App" /></a>
                     </div>
-                </body>
+                </section>
                 <hr />
 
-        </section>
+                    {/* FOOTER  */}
+                <footer>
+                    <p className='Zuri'>Zuri<span>.</span>Internship</p>
+                    <p className='HNG'>HNG Internship 9 Frontend Task</p>
+                    <img src={I4GLogo} alt="Ingressive For Good Logo" />
+                </footer>
+        </ div>
      );
 }
  

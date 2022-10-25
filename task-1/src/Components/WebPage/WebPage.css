@@ -98,3 +98,26 @@ hr{
     width: 80%;
     color:#667085
 }
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Zuri{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+Span{
+    color: red;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.HNG{
+    color:#667085;
+    font-weight: 400;
+}
