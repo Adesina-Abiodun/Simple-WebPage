@@ -4,6 +4,8 @@ import "@fontsource/inter"
 import User from '../../Assets/round1.png'
 import Arrow from '../../Assets/Icons/Arrow.svg'
 import Dots from '../../Assets/Icons/Dotted.svg'
+import Github from '../../Assets/Icons/github.svg'
+import Slack from '../../Assets/Icons/slack.svg'
 
  export const WebPage = () => {
 
@@ -65,7 +67,13 @@ import Dots from '../../Assets/Icons/Dotted.svg'
                     </div>
                     })}
 
+                      {/* Social Icons */}
+                    <div className='Social-Icons'>
+                        <a href="https://app.slack.com" target='_blank' rel='noreferrer'><img src={Slack} alt="Slack App" /></a>
+                        <a href="https://github.com/Adesina-Abiodun" target='_blank' rel='noreferrer'><img src={Github} alt="Github App" /></a>
+                    </div>
                 </body>
+                <hr />
 
         </section>
      );
