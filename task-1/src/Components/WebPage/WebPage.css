@@ -121,3 +121,22 @@ Span{
     color:#667085;
     font-weight: 400;
 }
+
+
+@media (max-width: 600px) {
+    footer{
+        display: none
+    }
+    hr{
+        display: none;
+    }
+    .Arrow{
+        display: none;
+    }
+
+    .Dots{
+        display: block;
+        position: absolute;
+        right: 10%;
+    }
+}
