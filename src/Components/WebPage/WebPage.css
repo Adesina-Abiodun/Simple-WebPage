@@ -88,14 +88,14 @@ button{
     display: flex;
     justify-content: space-around;
     width: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     margin-top: 10px;
 }
 
 hr{
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     color:#667085
 }
 
@@ -125,11 +125,9 @@ Span{
 
 @media (max-width: 600px) {
     footer{
-        display: none
+        display: block;
     }
-    hr{
-        display: none;
-    }
+  
     .Arrow{
         display: none;
     }
