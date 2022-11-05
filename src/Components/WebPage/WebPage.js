@@ -40,6 +40,11 @@ import I4GLogo from '../../Assets/Icons/Ingressive.svg'
                     Name: "Design Books",
                     id: 'book_design',
                     link: "https://books.zuri.team/design-rules"
+                },
+                {
+                    Name: "Contact me",
+                    id: 'contact',
+                    link: "/contact"
                 }]
 
 
