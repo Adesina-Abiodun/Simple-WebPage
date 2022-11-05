@@ -127,8 +127,12 @@ Span{
 @media (max-width: 600px) {
     footer{
         display: block;
+<<<<<<< HEAD
         padding-left: 10px
+=======
+>>>>>>> d6f4def0b7aab5d89fa010faf4cb136a6d0192d8
     }
+  
     .Arrow{
         display: none;
     }
